@@ -1,0 +1,9 @@
+.header{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+.loginlogut{
+    position: absolute;
+    right: 5px;
+}
