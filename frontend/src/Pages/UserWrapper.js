@@ -60,7 +60,6 @@ function UserWrapper() {
             <Route path='' element={<UserLanding/>} />
             <Route path='signup' element={<UserSignin/>} />
             <Route path='login' element={<UserLogin/>} />
-            <Route path='logout' element={<UserLogout/>} />
             <Route path='profile' element={<PrivateRoute><UserProfile/></PrivateRoute>} />
         </Routes>
     </div>
